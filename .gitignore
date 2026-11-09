@@ -1,0 +1,19 @@
+# Credentials and local config — never commit
+.env
+.config/
+*credentials*
+*.json.key
+service-account*.json
+
+# Notebook / Python clutter
+.ipynb_checkpoints/
+.Trash-*/
+__pycache__/
+*.pyc
+
+# Regenerated outputs (figures in figures/ are kept)
+outputs/
+
+# Large rasters
+*.tif
+*.tiff

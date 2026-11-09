@@ -1,0 +1,22 @@
+# Earth Engine
+earthengine-api>=0.1.400
+
+# Geospatial
+geopandas>=0.14
+shapely>=2.0
+pyproj
+
+# Data & statistics
+pandas>=2.0
+numpy
+scipy
+statsmodels>=0.14
+
+# Visualisation
+matplotlib>=3.7
+Pillow
+requests
+
+# Notebook
+jupyterlab
+ipykernel
